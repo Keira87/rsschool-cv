@@ -1,0 +1,66 @@
+body {background-color: rgba(199, 172, 186, 0.8);}
+.body {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.info {
+    font: 16px/1 Arial, sans-serif;
+    color: rgba(34, 8, 115, 0.83);
+    width: 50%;
+    margin: 3px;
+    padding:3px;
+}
+.foto {
+    width: 50%;
+    margin: 3px;
+    padding:3px;
+}
+.education {
+    font: 16px/1.5 Arial, sans-serif;
+    color: #151854;
+    margin: 3px;
+    padding:3px;
+}
+.experience {
+    font: 16px/1 Arial, sans-serif;
+    color: #151854;
+    margin: 3px;
+    padding:3px;
+}
+.skills {
+    font: italic 16px/1.5 Arial, sans-serif;
+    color: #151854;
+    margin: 3px;
+    padding:3px;
+}
+.other {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.link {
+    margin: 3px;
+    padding: 3 px;
+    width: 30%;
+}
+.year {
+    margin: 3px;
+    padding: 3 px;
+    width: 40%
+}
+.logo {
+    margin: 3px;
+    padding: 3 px;
+    width: 30%
+}
+h2 {
+    color: rgba(34, 8, 115, 0.83);
+    font: 24px Arial, sans-serif;
+}
